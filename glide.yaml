@@ -1,0 +1,5 @@
+package: test_inline
+import: []
+testImport:
+- package: github.com/bouk/monkey
+  version: ^1.0.1

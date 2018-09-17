@@ -1,0 +1,6 @@
+hash: 165ea09fdc46247cb413683b7844d6a4cd3265835d277bb4a4c9d366d0190ff9
+updated: 2018-09-17T15:20:36.279909671+08:00
+imports: []
+testImports:
+- name: github.com/bouk/monkey
+  version: bdf6dea004c6fd1cdf4b25da8ad45a606c09409a
