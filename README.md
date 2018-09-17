@@ -99,7 +99,7 @@ func TestHttp(t *testing.T) {
 
 	//fmt.Println(string(body))
 	result := string(body)
-	if result == "3" {
+	if result == "2" {
 		t.Error(result)
 	} else if result == "3" {
 		t.Log(result)
