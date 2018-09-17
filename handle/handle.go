@@ -6,6 +6,7 @@ import (
 )
 
 func Max(m,n int) int {
+	//fmt.Println("Max")
 	if m > n {
 		return m
 	}
