@@ -1,7 +1,7 @@
 # test_inline
 
 This is a demo for testing inline functions, go1.11 version.
-Execute test cases with `go test -gcflags = all ="- l" test_inline / test`
+Execute test cases with `go test -gcflags=all=-l test_inline/test`
 when `fmt.println` in `handle.Max` opens Both test cases succeeded.
 ```
 func Max(m,n int) int {
@@ -23,7 +23,7 @@ func Max(m,n int) int {
 	return n
 }
 ```
-This happens because the inline is not disabled in the http service, so `-gcflags = all =- l` Is there a bug in go1.11?
+This happens because the inline is not disabled in the http service, so `-gcflags=all=-l` Is there a bug in go1.11?
 
 #### handle.go
 ```
